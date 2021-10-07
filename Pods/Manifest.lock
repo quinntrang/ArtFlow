@@ -1,0 +1,16 @@
+PODS:
+  - RPTTextView (0.1.1)
+
+DEPENDENCIES:
+  - RPTTextView
+
+SPEC REPOS:
+  trunk:
+    - RPTTextView
+
+SPEC CHECKSUMS:
+  RPTTextView: 94e91d4db5a36e89eaddfbaaaca479c19e3895b1
+
+PODFILE CHECKSUM: 50f1d292b86cc3cd87cc111e21e60f6f402aad3c
+
+COCOAPODS: 1.10.1

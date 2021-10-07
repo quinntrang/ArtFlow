@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCADEFABD7E8A579FB84837B4B761A2 /* Pods-ArtFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 546284E154D16FBF41B3FF23BA70D81E /* Pods-ArtFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		428721A5661A0D3CAD39AB49C4BE412B /* Pods-ArtFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED8C0EFC1E3F270B3345E8992A8633 /* Pods-ArtFlow-dummy.m */; };
+		6CC7A8C30F78656D9DF3D10BCED2427F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8658DECE82F0A7299220018391FAED5C /* Pods-ArtFlow-ArtFlowUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B033300DF87074DB0FD880C9677BC99A /* Pods-ArtFlow-ArtFlowUITests-dummy.m */; };
+		87BD05E913DF436DA80034A7CA2852A3 /* RPTTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85C1E971DD5CA71F0ED58CEF674C2A /* RPTTextView.swift */; };
+		8C5572F5E0CEA8209FF3C6BE40CA1737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C59508A8E3F633BDF05683346474985 /* Pods-ArtFlow-ArtFlowUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5619AC7D35A011CD74164CD0CE5208 /* Pods-ArtFlow-ArtFlowUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AAA2CA1641E200CE8CCE7EDD226F30 /* RPTTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F99550623D9468E755B11FB68A7DA450 /* RPTTextView-dummy.m */; };
+		A5CA6A49DE9CD6F6FDC9A593D829289E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B9215C86D098B83918F79DEF6BF7537F /* RPTTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D8C218A9C058E9DDDEEAABBEA05813 /* RPTTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1FCC48D3D1D93DDAA95CEEE694203F /* Pods-ArtFlowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3C52639D2B7E532827A0D43DBFC61B /* Pods-ArtFlowTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5AFEA5A8191B4F605A80528E98461A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F5666596381CEF39E6CA4EC3876EC191 /* Pods-ArtFlowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB097403882630BD2A819C4C945A6 /* Pods-ArtFlowTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2B04098F162966C98725D79D34F24E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A13F3E26D721E9431E576CAE5BD0671;
+			remoteInfo = RPTTextView;
+		};
+		AE15571DFF45DD4231EBFA39D853C4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BEF1BCFEF3785F3C826AA331A85BF41;
+			remoteInfo = "Pods-ArtFlow";
+		};
+		D1F08C99584ABE7F1E9569123850C53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A13F3E26D721E9431E576CAE5BD0671;
+			remoteInfo = RPTTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1336C4F270B461A3105695A7E0419CC8 /* RPTTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPTTextView.debug.xcconfig; sourceTree = "<group>"; };
+		1D0B53BF8DFB4285D22D7CE985B5D247 /* Pods-ArtFlow-ArtFlowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtFlow-ArtFlowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CED8C0EFC1E3F270B3345E8992A8633 /* Pods-ArtFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtFlow-dummy.m"; sourceTree = "<group>"; };
+		315F65930BD38B108B46ED785CEF6D2D /* RPTTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPTTextView-prefix.pch"; sourceTree = "<group>"; };
+		32E6D80FC7D8AC4EC58CDC4016180360 /* Pods_ArtFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArtFlow.framework; path = "Pods-ArtFlow.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5619AC7D35A011CD74164CD0CE5208 /* Pods-ArtFlow-ArtFlowUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtFlow-ArtFlowUITests-umbrella.h"; sourceTree = "<group>"; };
+		3D9F4C725B0C75862278917C32892FA4 /* Pods-ArtFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		546284E154D16FBF41B3FF23BA70D81E /* Pods-ArtFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtFlow-umbrella.h"; sourceTree = "<group>"; };
+		5988A104DBA7932214013DE5E4EC315A /* Pods-ArtFlow-ArtFlowUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtFlow-ArtFlowUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D6A1F5702E3803C3194A75192BF5C32 /* Pods-ArtFlowTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtFlowTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E583332083AE6D4151FAA3E0BF73CC7 /* Pods-ArtFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtFlow-Info.plist"; sourceTree = "<group>"; };
+		615CB097403882630BD2A819C4C945A6 /* Pods-ArtFlowTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtFlowTests-dummy.m"; sourceTree = "<group>"; };
+		64717DB47FECE39754A3D761CD3C7B6D /* Pods-ArtFlow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtFlow-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CA4903E21BAD26DC5EC4D20AAB96174 /* Pods-ArtFlowTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtFlowTests-Info.plist"; sourceTree = "<group>"; };
+		7F46B4C3F1262FA17232EA9441AE100A /* Pods_ArtFlow_ArtFlowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArtFlow_ArtFlowUITests.framework; path = "Pods-ArtFlow-ArtFlowUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425699CE5FF26002FBF2EFDF4B8396B /* Pods-ArtFlowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtFlowTests.release.xcconfig"; sourceTree = "<group>"; };
+		85A2F8A2C78B13896651289DF36999C9 /* Pods-ArtFlow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtFlow-acknowledgements.plist"; sourceTree = "<group>"; };
+		85BEA6E17B6D85EE3E8D20572203DAE3 /* RPTTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPTTextView.release.xcconfig; sourceTree = "<group>"; };
+		90035FE6315B325FD5F3C6B62B07319B /* Pods_ArtFlowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArtFlowTests.framework; path = "Pods-ArtFlowTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D3F9B90D5C4CA071425F48043AC43B /* RPTTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPTTextView-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A226A141E08CF64A98C98B4A9C2730EF /* RPTTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPTTextView.modulemap; sourceTree = "<group>"; };
+		A6571C9CB7D16C0551E196A655E16FF3 /* Pods-ArtFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtFlow.release.xcconfig"; sourceTree = "<group>"; };
+		A8250D16169EA09FFE47FF1B6B8E0D99 /* Pods-ArtFlow-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtFlow-frameworks.sh"; sourceTree = "<group>"; };
+		B033300DF87074DB0FD880C9677BC99A /* Pods-ArtFlow-ArtFlowUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtFlow-ArtFlowUITests-dummy.m"; sourceTree = "<group>"; };
+		B978AF95FB4F46613598AFBE4580900D /* Pods-ArtFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		C525A2A2B968B13D7117F2B153C59D4E /* Pods-ArtFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArtFlow.modulemap"; sourceTree = "<group>"; };
+		C64B1FE2B04EB9D79F71BCFC6276C20E /* Pods-ArtFlow-ArtFlowUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtFlow-ArtFlowUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD9A57AFD71E5A65488ED1819EE01B71 /* Pods-ArtFlow-ArtFlowUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtFlow-ArtFlowUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D3D8C218A9C058E9DDDEEAABBEA05813 /* RPTTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPTTextView-umbrella.h"; sourceTree = "<group>"; };
+		D4F6BEDBB5F1E561CD375FF11F4C6D44 /* RPTTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPTTextView.framework; path = RPTTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6994916E147F124B9A8B5649ACDBFC7 /* Pods-ArtFlow-ArtFlowUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtFlow-ArtFlowUITests-Info.plist"; sourceTree = "<group>"; };
+		DE7B50B1A87B5BAC7ED31699E8BD132E /* Pods-ArtFlowTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArtFlowTests.modulemap"; sourceTree = "<group>"; };
+		E1FAA25B0DF7992A8B663EDABBE4746E /* Pods-ArtFlow-ArtFlowUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArtFlow-ArtFlowUITests.modulemap"; sourceTree = "<group>"; };
+		EA3C52639D2B7E532827A0D43DBFC61B /* Pods-ArtFlowTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtFlowTests-umbrella.h"; sourceTree = "<group>"; };
+		F495D8FEDB09667032BCFABB98E6D5A2 /* Pods-ArtFlowTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtFlowTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F99550623D9468E755B11FB68A7DA450 /* RPTTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPTTextView-dummy.m"; sourceTree = "<group>"; };
+		FA85C1E971DD5CA71F0ED58CEF674C2A /* RPTTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPTTextView.swift; path = RPTTextView/Classes/RPTTextView.swift; sourceTree = "<group>"; };
+		FEBD39D98B146A9322668AD39B5F8D43 /* Pods-ArtFlow-ArtFlowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtFlow-ArtFlowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0995098BD315247548459EC77C2C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC7A8C30F78656D9DF3D10BCED2427F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B9BCD42AD2410A9DA2F258FFEBAE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5572F5E0CEA8209FF3C6BE40CA1737 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3956C3D75CE1F6F8BCF6F9119F60947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5AFEA5A8191B4F605A80528E98461A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF20247D8045B2B9E019270521B3DECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA6A49DE9CD6F6FDC9A593D829289E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B75A79F5B3FE47A7076D792FF9502D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E6D80FC7D8AC4EC58CDC4016180360 /* Pods_ArtFlow.framework */,
+				7F46B4C3F1262FA17232EA9441AE100A /* Pods_ArtFlow_ArtFlowUITests.framework */,
+				90035FE6315B325FD5F3C6B62B07319B /* Pods_ArtFlowTests.framework */,
+				D4F6BEDBB5F1E561CD375FF11F4C6D44 /* RPTTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4DEDDADD1E76923DE99B4C09749BC1 /* Pods-ArtFlow-ArtFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FAA25B0DF7992A8B663EDABBE4746E /* Pods-ArtFlow-ArtFlowUITests.modulemap */,
+				C64B1FE2B04EB9D79F71BCFC6276C20E /* Pods-ArtFlow-ArtFlowUITests-acknowledgements.markdown */,
+				5988A104DBA7932214013DE5E4EC315A /* Pods-ArtFlow-ArtFlowUITests-acknowledgements.plist */,
+				B033300DF87074DB0FD880C9677BC99A /* Pods-ArtFlow-ArtFlowUITests-dummy.m */,
+				CD9A57AFD71E5A65488ED1819EE01B71 /* Pods-ArtFlow-ArtFlowUITests-frameworks.sh */,
+				D6994916E147F124B9A8B5649ACDBFC7 /* Pods-ArtFlow-ArtFlowUITests-Info.plist */,
+				3A5619AC7D35A011CD74164CD0CE5208 /* Pods-ArtFlow-ArtFlowUITests-umbrella.h */,
+				FEBD39D98B146A9322668AD39B5F8D43 /* Pods-ArtFlow-ArtFlowUITests.debug.xcconfig */,
+				1D0B53BF8DFB4285D22D7CE985B5D247 /* Pods-ArtFlow-ArtFlowUITests.release.xcconfig */,
+			);
+			name = "Pods-ArtFlow-ArtFlowUITests";
+			path = "Target Support Files/Pods-ArtFlow-ArtFlowUITests";
+			sourceTree = "<group>";
+		};
+		49EE585D83723F669D322EF95DEC4FD5 /* Pods-ArtFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C525A2A2B968B13D7117F2B153C59D4E /* Pods-ArtFlow.modulemap */,
+				64717DB47FECE39754A3D761CD3C7B6D /* Pods-ArtFlow-acknowledgements.markdown */,
+				85A2F8A2C78B13896651289DF36999C9 /* Pods-ArtFlow-acknowledgements.plist */,
+				2CED8C0EFC1E3F270B3345E8992A8633 /* Pods-ArtFlow-dummy.m */,
+				A8250D16169EA09FFE47FF1B6B8E0D99 /* Pods-ArtFlow-frameworks.sh */,
+				5E583332083AE6D4151FAA3E0BF73CC7 /* Pods-ArtFlow-Info.plist */,
+				546284E154D16FBF41B3FF23BA70D81E /* Pods-ArtFlow-umbrella.h */,
+				B978AF95FB4F46613598AFBE4580900D /* Pods-ArtFlow.debug.xcconfig */,
+				A6571C9CB7D16C0551E196A655E16FF3 /* Pods-ArtFlow.release.xcconfig */,
+			);
+			name = "Pods-ArtFlow";
+			path = "Target Support Files/Pods-ArtFlow";
+			sourceTree = "<group>";
+		};
+		51E032DAED6FBD4F0B7D572127BD905C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A226A141E08CF64A98C98B4A9C2730EF /* RPTTextView.modulemap */,
+				F99550623D9468E755B11FB68A7DA450 /* RPTTextView-dummy.m */,
+				98D3F9B90D5C4CA071425F48043AC43B /* RPTTextView-Info.plist */,
+				315F65930BD38B108B46ED785CEF6D2D /* RPTTextView-prefix.pch */,
+				D3D8C218A9C058E9DDDEEAABBEA05813 /* RPTTextView-umbrella.h */,
+				1336C4F270B461A3105695A7E0419CC8 /* RPTTextView.debug.xcconfig */,
+				85BEA6E17B6D85EE3E8D20572203DAE3 /* RPTTextView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RPTTextView";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93B1D127E95303F565071A982430735F /* Pods-ArtFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE7B50B1A87B5BAC7ED31699E8BD132E /* Pods-ArtFlowTests.modulemap */,
+				F495D8FEDB09667032BCFABB98E6D5A2 /* Pods-ArtFlowTests-acknowledgements.markdown */,
+				5D6A1F5702E3803C3194A75192BF5C32 /* Pods-ArtFlowTests-acknowledgements.plist */,
+				615CB097403882630BD2A819C4C945A6 /* Pods-ArtFlowTests-dummy.m */,
+				7CA4903E21BAD26DC5EC4D20AAB96174 /* Pods-ArtFlowTests-Info.plist */,
+				EA3C52639D2B7E532827A0D43DBFC61B /* Pods-ArtFlowTests-umbrella.h */,
+				3D9F4C725B0C75862278917C32892FA4 /* Pods-ArtFlowTests.debug.xcconfig */,
+				8425699CE5FF26002FBF2EFDF4B8396B /* Pods-ArtFlowTests.release.xcconfig */,
+			);
+			name = "Pods-ArtFlowTests";
+			path = "Target Support Files/Pods-ArtFlowTests";
+			sourceTree = "<group>";
+		};
+		A2F43AAB90B2BDF44149C11B7CA2971B /* RPTTextView */ = {
+			isa = PBXGroup;
+			children = (
+				FA85C1E971DD5CA71F0ED58CEF674C2A /* RPTTextView.swift */,
+				51E032DAED6FBD4F0B7D572127BD905C /* Support Files */,
+			);
+			name = RPTTextView;
+			path = RPTTextView;
+			sourceTree = "<group>";
+		};
+		B481B9F68D44AB857DB7C8F249264E06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EE585D83723F669D322EF95DEC4FD5 /* Pods-ArtFlow */,
+				2B4DEDDADD1E76923DE99B4C09749BC1 /* Pods-ArtFlow-ArtFlowUITests */,
+				93B1D127E95303F565071A982430735F /* Pods-ArtFlowTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E8D6D5D1784BE1913062AAE3C1F62C46 /* Pods */,
+				17B75A79F5B3FE47A7076D792FF9502D /* Products */,
+				B481B9F68D44AB857DB7C8F249264E06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D6D5D1784BE1913062AAE3C1F62C46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2F43AAB90B2BDF44149C11B7CA2971B /* RPTTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E9C78F7FF0C0C48D47627F68E2B4D9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C59508A8E3F633BDF05683346474985 /* Pods-ArtFlow-ArtFlowUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0EAA7650B080A72191225D6EA5F20F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9215C86D098B83918F79DEF6BF7537F /* RPTTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D8D3F679202A4C9A6A4C0B2EC115A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCADEFABD7E8A579FB84837B4B761A2 /* Pods-ArtFlow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E152269360F1E0D3D3312410EAAAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1FCC48D3D1D93DDAA95CEEE694203F /* Pods-ArtFlowTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BEF1BCFEF3785F3C826AA331A85BF41 /* Pods-ArtFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211984416754168575FC1CBC5CD02A7D /* Build configuration list for PBXNativeTarget "Pods-ArtFlow" */;
+			buildPhases = (
+				69D8D3F679202A4C9A6A4C0B2EC115A8 /* Headers */,
+				103FA427403B41A20D593D0184E8293B /* Sources */,
+				EF20247D8045B2B9E019270521B3DECD /* Frameworks */,
+				EC0DC4E99DC35374E222498DD326DD41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8FDB0E423AFB179A34F846671041414 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArtFlow";
+			productName = "Pods-ArtFlow";
+			productReference = 32E6D80FC7D8AC4EC58CDC4016180360 /* Pods_ArtFlow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A13F3E26D721E9431E576CAE5BD0671 /* RPTTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019827A437738B3FA399266D2E64ACCE /* Build configuration list for PBXNativeTarget "RPTTextView" */;
+			buildPhases = (
+				5C0EAA7650B080A72191225D6EA5F20F /* Headers */,
+				21724E677BB54051867F5A5C53B89D3A /* Sources */,
+				2F0995098BD315247548459EC77C2C4A /* Frameworks */,
+				06F7354B69DBCB70284A4565CF503A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPTTextView;
+			productName = RPTTextView;
+			productReference = D4F6BEDBB5F1E561CD375FF11F4C6D44 /* RPTTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C86294E5938F6C22E2C8EAA113A6A25 /* Pods-ArtFlow-ArtFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA3AFABFEA42EDB62A4FE797D448332 /* Build configuration list for PBXNativeTarget "Pods-ArtFlow-ArtFlowUITests" */;
+			buildPhases = (
+				1E9C78F7FF0C0C48D47627F68E2B4D9E /* Headers */,
+				4B7C05E30F9B337105A843F02DB98650 /* Sources */,
+				34B9BCD42AD2410A9DA2F258FFEBAE76 /* Frameworks */,
+				A648B915173BA884630E315F0C19C74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3E9A2E1B7E79D3907971D80B6E027D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArtFlow-ArtFlowUITests";
+			productName = "Pods-ArtFlow-ArtFlowUITests";
+			productReference = 7F46B4C3F1262FA17232EA9441AE100A /* Pods_ArtFlow_ArtFlowUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1AA16D85DAC6EEE47AE7BF789BC35FD /* Pods-ArtFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D3CF942F08C2FFE84713CEF47AFACA /* Build configuration list for PBXNativeTarget "Pods-ArtFlowTests" */;
+			buildPhases = (
+				BF7E152269360F1E0D3D3312410EAAAF /* Headers */,
+				957AAE184C02F77B4A408A56F0B6F1DB /* Sources */,
+				A3956C3D75CE1F6F8BCF6F9119F60947 /* Frameworks */,
+				FF4A367B19EA55D9CAE4C5933DB8B05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D2960B5D462B02D47497ABBF7C2B20 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArtFlowTests";
+			productName = "Pods-ArtFlowTests";
+			productReference = 90035FE6315B325FD5F3C6B62B07319B /* Pods_ArtFlowTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 17B75A79F5B3FE47A7076D792FF9502D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BEF1BCFEF3785F3C826AA331A85BF41 /* Pods-ArtFlow */,
+				7C86294E5938F6C22E2C8EAA113A6A25 /* Pods-ArtFlow-ArtFlowUITests */,
+				C1AA16D85DAC6EEE47AE7BF789BC35FD /* Pods-ArtFlowTests */,
+				6A13F3E26D721E9431E576CAE5BD0671 /* RPTTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F7354B69DBCB70284A4565CF503A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A648B915173BA884630E315F0C19C74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0DC4E99DC35374E222498DD326DD41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4A367B19EA55D9CAE4C5933DB8B05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103FA427403B41A20D593D0184E8293B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428721A5661A0D3CAD39AB49C4BE412B /* Pods-ArtFlow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21724E677BB54051867F5A5C53B89D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AAA2CA1641E200CE8CCE7EDD226F30 /* RPTTextView-dummy.m in Sources */,
+				87BD05E913DF436DA80034A7CA2852A3 /* RPTTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7C05E30F9B337105A843F02DB98650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8658DECE82F0A7299220018391FAED5C /* Pods-ArtFlow-ArtFlowUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957AAE184C02F77B4A408A56F0B6F1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5666596381CEF39E6CA4EC3876EC191 /* Pods-ArtFlowTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D2960B5D462B02D47497ABBF7C2B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ArtFlow";
+			target = 0BEF1BCFEF3785F3C826AA331A85BF41 /* Pods-ArtFlow */;
+			targetProxy = AE15571DFF45DD4231EBFA39D853C4E4 /* PBXContainerItemProxy */;
+		};
+		B3E9A2E1B7E79D3907971D80B6E027D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RPTTextView;
+			target = 6A13F3E26D721E9431E576CAE5BD0671 /* RPTTextView */;
+			targetProxy = D1F08C99584ABE7F1E9569123850C53E /* PBXContainerItemProxy */;
+		};
+		D8FDB0E423AFB179A34F846671041414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RPTTextView;
+			target = 6A13F3E26D721E9431E576CAE5BD0671 /* RPTTextView */;
+			targetProxy = 4C2B04098F162966C98725D79D34F24E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31B0075A776A0ACA3610A77D1958C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6571C9CB7D16C0551E196A655E16FF3 /* Pods-ArtFlow.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtFlow/Pods-ArtFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtFlow/Pods-ArtFlow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39E0379C6F140156067E106E17818B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BEA6E17B6D85EE3E8D20572203DAE3 /* RPTTextView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RPTTextView/RPTTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RPTTextView/RPTTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RPTTextView/RPTTextView.modulemap";
+				PRODUCT_MODULE_NAME = RPTTextView;
+				PRODUCT_NAME = RPTTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D7B1E2E3E5AEC978F0A9C6897768E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1336C4F270B461A3105695A7E0419CC8 /* RPTTextView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RPTTextView/RPTTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RPTTextView/RPTTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RPTTextView/RPTTextView.modulemap";
+				PRODUCT_MODULE_NAME = RPTTextView;
+				PRODUCT_NAME = RPTTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D2EC2131E1E7FD6A8601F3D08D6FB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B978AF95FB4F46613598AFBE4580900D /* Pods-ArtFlow.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtFlow/Pods-ArtFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtFlow/Pods-ArtFlow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E6CD762E1162B4DCB8A9A3B72E90350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0B53BF8DFB4285D22D7CE985B5D247 /* Pods-ArtFlow-ArtFlowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81A997895D303FA725F80A50B12749D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9F4C725B0C75862278917C32892FA4 /* Pods-ArtFlowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtFlowTests/Pods-ArtFlowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtFlowTests/Pods-ArtFlowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87267A2FF7C9EB29E465F54D53F88020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBD39D98B146A9322668AD39B5F8D43 /* Pods-ArtFlow-ArtFlowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A6BAD54C3AC2F4F5D90D66B16DE91A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425699CE5FF26002FBF2EFDF4B8396B /* Pods-ArtFlowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtFlowTests/Pods-ArtFlowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtFlowTests/Pods-ArtFlowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019827A437738B3FA399266D2E64ACCE /* Build configuration list for PBXNativeTarget "RPTTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7B1E2E3E5AEC978F0A9C6897768E4E /* Debug */,
+				39E0379C6F140156067E106E17818B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211984416754168575FC1CBC5CD02A7D /* Build configuration list for PBXNativeTarget "Pods-ArtFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2EC2131E1E7FD6A8601F3D08D6FB0F /* Debug */,
+				31B0075A776A0ACA3610A77D1958C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA3AFABFEA42EDB62A4FE797D448332 /* Build configuration list for PBXNativeTarget "Pods-ArtFlow-ArtFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87267A2FF7C9EB29E465F54D53F88020 /* Debug */,
+				7E6CD762E1162B4DCB8A9A3B72E90350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D3CF942F08C2FFE84713CEF47AFACA /* Build configuration list for PBXNativeTarget "Pods-ArtFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A997895D303FA725F80A50B12749D4 /* Debug */,
+				8A6BAD54C3AC2F4F5D90D66B16DE91A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

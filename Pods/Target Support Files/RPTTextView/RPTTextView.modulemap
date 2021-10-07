@@ -1,0 +1,6 @@
+framework module RPTTextView {
+  umbrella header "RPTTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

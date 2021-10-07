@@ -3,77 +3,227 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4557D5325ED97EB00D5B281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4557D5225ED97EB00D5B281 /* AppDelegate.swift */; };
-		E4557D5525ED97EB00D5B281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4557D5425ED97EB00D5B281 /* SceneDelegate.swift */; };
-		E4557D5725ED97EB00D5B281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4557D5625ED97EB00D5B281 /* ViewController.swift */; };
-		E4557D5C25ED97EB00D5B281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4557D5B25ED97EB00D5B281 /* Assets.xcassets */; };
-		E4557D5F25ED97EB00D5B281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4557D5D25ED97EB00D5B281 /* LaunchScreen.storyboard */; };
+		2B8FD59A263DBDB80012BE64 /* UIView+AFExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FD599263DBDB80012BE64 /* UIView+AFExtentions.swift */; };
+		2B8FD5BE263DEA330012BE64 /* VCProjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FD5BD263DEA330012BE64 /* VCProjectDetail.swift */; };
+		2BAA4622263EF80E00B96196 /* AFUISupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA4621263EF80E00B96196 /* AFUISupport.swift */; };
+		33226B5BEDADA8F496EC3106 /* Pods_ArtFlowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73846531C37D0B1029C000C /* Pods_ArtFlowTests.framework */; };
+		7E9B060D12776E859BCB0507 /* Pods_ArtFlow_ArtFlowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51724CD68D01EBD206A41BA0 /* Pods_ArtFlow_ArtFlowUITests.framework */; };
+		9340A6E02620E1D0007C1AD1 /* VCHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340A6DF2620E1D0007C1AD1 /* VCHome.swift */; };
+		9340A6E52620E1DD007C1AD1 /* TVCCreateProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340A6E42620E1DD007C1AD1 /* TVCCreateProject.swift */; };
+		9340A6EA2620E1EF007C1AD1 /* TVCCreateEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340A6E92620E1EF007C1AD1 /* TVCCreateEntries.swift */; };
+		9340A6EF2620E1FC007C1AD1 /* TVCProjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340A6EE2620E1FC007C1AD1 /* TVCProjectList.swift */; };
+		93526E052620CEBC0046647C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93526E042620CEBC0046647C /* AppDelegate.swift */; };
+		93526E072620CEBC0046647C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93526E062620CEBC0046647C /* SceneDelegate.swift */; };
+		93526E0C2620CEBC0046647C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93526E0A2620CEBC0046647C /* Main.storyboard */; };
+		93526E0F2620CEBC0046647C /* ArtFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93526E0D2620CEBC0046647C /* ArtFlow.xcdatamodeld */; };
+		93526E112620CEBF0046647C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93526E102620CEBF0046647C /* Assets.xcassets */; };
+		93526E142620CEBF0046647C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93526E122620CEBF0046647C /* LaunchScreen.storyboard */; };
+		93526E1F2620CEBF0046647C /* ArtFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93526E1E2620CEBF0046647C /* ArtFlowTests.swift */; };
+		93526E2A2620CEBF0046647C /* ArtFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93526E292620CEBF0046647C /* ArtFlowUITests.swift */; };
+		9352D47726223ADB00B4E911 /* AFDataSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9352D47626223ADB00B4E911 /* AFDataSupport.swift */; };
+		93ED2A4326236F0500F30FD6 /* TVCUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED2A4226236F0500F30FD6 /* TVCUser.swift */; };
+		93ED2A4826237C4800F30FD6 /* TVCellStage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93ED2A4726237C4800F30FD6 /* TVCellStage.xib */; };
+		93ED2A5026237E4400F30FD6 /* TVCellStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED2A4F26237E4400F30FD6 /* TVCellStage.swift */; };
+		93ED2A6A2623812400F30FD6 /* Date+AFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED2A692623812400F30FD6 /* Date+AFExtension.swift */; };
+		D8EFF882E5EA38D8912EC514 /* Pods_ArtFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6A167315FAE74ED456EC7B /* Pods_ArtFlow.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		93526E1B2620CEBF0046647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93526DF92620CEBC0046647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93526E002620CEBC0046647C;
+			remoteInfo = ArtFlow;
+		};
+		93526E262620CEBF0046647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93526DF92620CEBC0046647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93526E002620CEBC0046647C;
+			remoteInfo = ArtFlow;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		E4557D4F25ED97EB00D5B281 /* ArtFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4557D5225ED97EB00D5B281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4557D5425ED97EB00D5B281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4557D5625ED97EB00D5B281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4557D5B25ED97EB00D5B281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4557D5E25ED97EB00D5B281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E4557D6025ED97EB00D5B281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117EBB6F792E15DA0B12344C /* Pods-ArtFlow-ArtFlowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtFlow-ArtFlowUITests.release.xcconfig"; path = "Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		125881C5267712269E631E3D /* Pods-ArtFlowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtFlowTests.release.xcconfig"; path = "Target Support Files/Pods-ArtFlowTests/Pods-ArtFlowTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B8FD599263DBDB80012BE64 /* UIView+AFExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AFExtentions.swift"; sourceTree = "<group>"; };
+		2B8FD5BD263DEA330012BE64 /* VCProjectDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCProjectDetail.swift; sourceTree = "<group>"; };
+		2BAA4621263EF80E00B96196 /* AFUISupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFUISupport.swift; sourceTree = "<group>"; };
+		35D5548DFFCE9A1253FBA8BA /* Pods-ArtFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtFlow.debug.xcconfig"; path = "Target Support Files/Pods-ArtFlow/Pods-ArtFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		461349C3FC959A0E65C506F9 /* Pods-ArtFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtFlow.release.xcconfig"; path = "Target Support Files/Pods-ArtFlow/Pods-ArtFlow.release.xcconfig"; sourceTree = "<group>"; };
+		51724CD68D01EBD206A41BA0 /* Pods_ArtFlow_ArtFlowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtFlow_ArtFlowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		641B04D0D12A196CB0D7B34E /* Pods-ArtFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtFlowTests.debug.xcconfig"; path = "Target Support Files/Pods-ArtFlowTests/Pods-ArtFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9340A6DF2620E1D0007C1AD1 /* VCHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCHome.swift; sourceTree = "<group>"; };
+		9340A6E42620E1DD007C1AD1 /* TVCCreateProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCCreateProject.swift; sourceTree = "<group>"; };
+		9340A6E92620E1EF007C1AD1 /* TVCCreateEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCCreateEntries.swift; sourceTree = "<group>"; };
+		9340A6EE2620E1FC007C1AD1 /* TVCProjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCProjectList.swift; sourceTree = "<group>"; };
+		93526E012620CEBC0046647C /* ArtFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93526E042620CEBC0046647C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93526E062620CEBC0046647C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93526E0B2620CEBC0046647C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93526E0E2620CEBC0046647C /* ArtFlow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtFlow.xcdatamodel; sourceTree = "<group>"; };
+		93526E102620CEBF0046647C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93526E132620CEBF0046647C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93526E152620CEBF0046647C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93526E1A2620CEBF0046647C /* ArtFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93526E1E2620CEBF0046647C /* ArtFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtFlowTests.swift; sourceTree = "<group>"; };
+		93526E202620CEBF0046647C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93526E252620CEBF0046647C /* ArtFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93526E292620CEBF0046647C /* ArtFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtFlowUITests.swift; sourceTree = "<group>"; };
+		93526E2B2620CEBF0046647C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9352D47626223ADB00B4E911 /* AFDataSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFDataSupport.swift; sourceTree = "<group>"; };
+		93ED2A4226236F0500F30FD6 /* TVCUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCUser.swift; sourceTree = "<group>"; };
+		93ED2A4726237C4800F30FD6 /* TVCellStage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCellStage.xib; sourceTree = "<group>"; };
+		93ED2A4F26237E4400F30FD6 /* TVCellStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCellStage.swift; sourceTree = "<group>"; };
+		93ED2A692623812400F30FD6 /* Date+AFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+AFExtension.swift"; sourceTree = "<group>"; };
+		BB6A167315FAE74ED456EC7B /* Pods_ArtFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73846531C37D0B1029C000C /* Pods_ArtFlowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtFlowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA388CB01DE1EE082E9F587E /* Pods-ArtFlow-ArtFlowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtFlow-ArtFlowUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E4557D4C25ED97EA00D5B281 /* Frameworks */ = {
+		93526DFE2620CEBC0046647C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8EFF882E5EA38D8912EC514 /* Pods_ArtFlow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93526E172620CEBF0046647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33226B5BEDADA8F496EC3106 /* Pods_ArtFlowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93526E222620CEBF0046647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9B060D12776E859BCB0507 /* Pods_ArtFlow_ArtFlowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E4557D4625ED97EA00D5B281 = {
+		43969BE2B06F03FF0F385258 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E4557D5125ED97EB00D5B281 /* ArtFlow */,
-				E4557D5025ED97EB00D5B281 /* Products */,
+				35D5548DFFCE9A1253FBA8BA /* Pods-ArtFlow.debug.xcconfig */,
+				461349C3FC959A0E65C506F9 /* Pods-ArtFlow.release.xcconfig */,
+				FA388CB01DE1EE082E9F587E /* Pods-ArtFlow-ArtFlowUITests.debug.xcconfig */,
+				117EBB6F792E15DA0B12344C /* Pods-ArtFlow-ArtFlowUITests.release.xcconfig */,
+				641B04D0D12A196CB0D7B34E /* Pods-ArtFlowTests.debug.xcconfig */,
+				125881C5267712269E631E3D /* Pods-ArtFlowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93526DF82620CEBC0046647C = {
+			isa = PBXGroup;
+			children = (
+				93526E032620CEBC0046647C /* ArtFlow */,
+				93526E1D2620CEBF0046647C /* ArtFlowTests */,
+				93526E282620CEBF0046647C /* ArtFlowUITests */,
+				93526E022620CEBC0046647C /* Products */,
+				43969BE2B06F03FF0F385258 /* Pods */,
+				A68119B0262459D2F289F46B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E4557D5025ED97EB00D5B281 /* Products */ = {
+		93526E022620CEBC0046647C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4557D4F25ED97EB00D5B281 /* ArtFlow.app */,
+				93526E012620CEBC0046647C /* ArtFlow.app */,
+				93526E1A2620CEBF0046647C /* ArtFlowTests.xctest */,
+				93526E252620CEBF0046647C /* ArtFlowUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4557D5125ED97EB00D5B281 /* ArtFlow */ = {
+		93526E032620CEBC0046647C /* ArtFlow */ = {
 			isa = PBXGroup;
 			children = (
-				E4557D5225ED97EB00D5B281 /* AppDelegate.swift */,
-				E4557D5425ED97EB00D5B281 /* SceneDelegate.swift */,
-				E4557D5625ED97EB00D5B281 /* ViewController.swift */,
-				E4557D5B25ED97EB00D5B281 /* Assets.xcassets */,
-				E4557D5D25ED97EB00D5B281 /* LaunchScreen.storyboard */,
-				E4557D6025ED97EB00D5B281 /* Info.plist */,
+				93ED2A3E26236A6D00F30FD6 /* Resources */,
+				9352D47626223ADB00B4E911 /* AFDataSupport.swift */,
+				9340A6DF2620E1D0007C1AD1 /* VCHome.swift */,
+				9340A6E42620E1DD007C1AD1 /* TVCCreateProject.swift */,
+				9340A6E92620E1EF007C1AD1 /* TVCCreateEntries.swift */,
+				9340A6EE2620E1FC007C1AD1 /* TVCProjectList.swift */,
+				2B8FD5BD263DEA330012BE64 /* VCProjectDetail.swift */,
+				93ED2A4226236F0500F30FD6 /* TVCUser.swift */,
+				93ED2A4726237C4800F30FD6 /* TVCellStage.xib */,
+				93ED2A4F26237E4400F30FD6 /* TVCellStage.swift */,
+				93ED2A692623812400F30FD6 /* Date+AFExtension.swift */,
+				2B8FD599263DBDB80012BE64 /* UIView+AFExtentions.swift */,
 			);
 			path = ArtFlow;
+			sourceTree = "<group>";
+		};
+		93526E1D2620CEBF0046647C /* ArtFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				93526E1E2620CEBF0046647C /* ArtFlowTests.swift */,
+				93526E202620CEBF0046647C /* Info.plist */,
+			);
+			path = ArtFlowTests;
+			sourceTree = "<group>";
+		};
+		93526E282620CEBF0046647C /* ArtFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93526E292620CEBF0046647C /* ArtFlowUITests.swift */,
+				93526E2B2620CEBF0046647C /* Info.plist */,
+			);
+			path = ArtFlowUITests;
+			sourceTree = "<group>";
+		};
+		93ED2A3E26236A6D00F30FD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93526E042620CEBC0046647C /* AppDelegate.swift */,
+				93526E062620CEBC0046647C /* SceneDelegate.swift */,
+				93526E0A2620CEBC0046647C /* Main.storyboard */,
+				93526E102620CEBF0046647C /* Assets.xcassets */,
+				93526E122620CEBF0046647C /* LaunchScreen.storyboard */,
+				93526E152620CEBF0046647C /* Info.plist */,
+				93526E0D2620CEBC0046647C /* ArtFlow.xcdatamodeld */,
+				2BAA4621263EF80E00B96196 /* AFUISupport.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A68119B0262459D2F289F46B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A167315FAE74ED456EC7B /* Pods_ArtFlow.framework */,
+				51724CD68D01EBD206A41BA0 /* Pods_ArtFlow_ArtFlowUITests.framework */,
+				D73846531C37D0B1029C000C /* Pods_ArtFlowTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4557D4E25ED97EA00D5B281 /* ArtFlow */ = {
+		93526E002620CEBC0046647C /* ArtFlow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4557D6325ED97EB00D5B281 /* Build configuration list for PBXNativeTarget "ArtFlow" */;
+			buildConfigurationList = 93526E2E2620CEBF0046647C /* Build configuration list for PBXNativeTarget "ArtFlow" */;
 			buildPhases = (
-				E4557D4B25ED97EA00D5B281 /* Sources */,
-				E4557D4C25ED97EA00D5B281 /* Frameworks */,
-				E4557D4D25ED97EA00D5B281 /* Resources */,
+				903F63BE4D914776E33773A1 /* [CP] Check Pods Manifest.lock */,
+				93526DFD2620CEBC0046647C /* Sources */,
+				93526DFE2620CEBC0046647C /* Frameworks */,
+				93526DFF2620CEBC0046647C /* Resources */,
+				8AEF074678A1E3613AB91387 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -81,24 +231,71 @@
 			);
 			name = ArtFlow;
 			productName = ArtFlow;
-			productReference = E4557D4F25ED97EB00D5B281 /* ArtFlow.app */;
+			productReference = 93526E012620CEBC0046647C /* ArtFlow.app */;
 			productType = "com.apple.product-type.application";
+		};
+		93526E192620CEBF0046647C /* ArtFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93526E312620CEBF0046647C /* Build configuration list for PBXNativeTarget "ArtFlowTests" */;
+			buildPhases = (
+				6345485053B7C593BDB46056 /* [CP] Check Pods Manifest.lock */,
+				93526E162620CEBF0046647C /* Sources */,
+				93526E172620CEBF0046647C /* Frameworks */,
+				93526E182620CEBF0046647C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93526E1C2620CEBF0046647C /* PBXTargetDependency */,
+			);
+			name = ArtFlowTests;
+			productName = ArtFlowTests;
+			productReference = 93526E1A2620CEBF0046647C /* ArtFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93526E242620CEBF0046647C /* ArtFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93526E342620CEBF0046647C /* Build configuration list for PBXNativeTarget "ArtFlowUITests" */;
+			buildPhases = (
+				2195C9921478D380DCCA5FD5 /* [CP] Check Pods Manifest.lock */,
+				93526E212620CEBF0046647C /* Sources */,
+				93526E222620CEBF0046647C /* Frameworks */,
+				93526E232620CEBF0046647C /* Resources */,
+				66E3C1E164E7609A6451DA48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93526E272620CEBF0046647C /* PBXTargetDependency */,
+			);
+			name = ArtFlowUITests;
+			productName = ArtFlowUITests;
+			productReference = 93526E252620CEBF0046647C /* ArtFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E4557D4725ED97EA00D5B281 /* Project object */ = {
+		93526DF92620CEBC0046647C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					E4557D4E25ED97EA00D5B281 = {
-						CreatedOnToolsVersion = 12.4;
+					93526E002620CEBC0046647C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					93526E192620CEBF0046647C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 93526E002620CEBC0046647C;
+					};
+					93526E242620CEBF0046647C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 93526E002620CEBC0046647C;
 					};
 				};
 			};
-			buildConfigurationList = E4557D4A25ED97EA00D5B281 /* Build configuration list for PBXProject "ArtFlow" */;
+			buildConfigurationList = 93526DFC2620CEBC0046647C /* Build configuration list for PBXProject "ArtFlow" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,46 +303,215 @@
 				en,
 				Base,
 			);
-			mainGroup = E4557D4625ED97EA00D5B281;
-			productRefGroup = E4557D5025ED97EB00D5B281 /* Products */;
+			mainGroup = 93526DF82620CEBC0046647C;
+			productRefGroup = 93526E022620CEBC0046647C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4557D4E25ED97EA00D5B281 /* ArtFlow */,
+				93526E002620CEBC0046647C /* ArtFlow */,
+				93526E192620CEBF0046647C /* ArtFlowTests */,
+				93526E242620CEBF0046647C /* ArtFlowUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E4557D4D25ED97EA00D5B281 /* Resources */ = {
+		93526DFF2620CEBC0046647C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4557D5F25ED97EB00D5B281 /* LaunchScreen.storyboard in Resources */,
-				E4557D5C25ED97EB00D5B281 /* Assets.xcassets in Resources */,
+				93526E142620CEBF0046647C /* LaunchScreen.storyboard in Resources */,
+				93ED2A4826237C4800F30FD6 /* TVCellStage.xib in Resources */,
+				93526E112620CEBF0046647C /* Assets.xcassets in Resources */,
+				93526E0C2620CEBC0046647C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93526E182620CEBF0046647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93526E232620CEBF0046647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2195C9921478D380DCCA5FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtFlow-ArtFlowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6345485053B7C593BDB46056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtFlowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E3C1E164E7609A6451DA48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtFlow-ArtFlowUITests/Pods-ArtFlow-ArtFlowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AEF074678A1E3613AB91387 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtFlow/Pods-ArtFlow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtFlow/Pods-ArtFlow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtFlow/Pods-ArtFlow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903F63BE4D914776E33773A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtFlow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E4557D4B25ED97EA00D5B281 /* Sources */ = {
+		93526DFD2620CEBC0046647C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4557D5725ED97EB00D5B281 /* ViewController.swift in Sources */,
-				E4557D5325ED97EB00D5B281 /* AppDelegate.swift in Sources */,
-				E4557D5525ED97EB00D5B281 /* SceneDelegate.swift in Sources */,
+				93ED2A4326236F0500F30FD6 /* TVCUser.swift in Sources */,
+				93526E052620CEBC0046647C /* AppDelegate.swift in Sources */,
+				2B8FD5BE263DEA330012BE64 /* VCProjectDetail.swift in Sources */,
+				9352D47726223ADB00B4E911 /* AFDataSupport.swift in Sources */,
+				9340A6EF2620E1FC007C1AD1 /* TVCProjectList.swift in Sources */,
+				9340A6EA2620E1EF007C1AD1 /* TVCCreateEntries.swift in Sources */,
+				93526E072620CEBC0046647C /* SceneDelegate.swift in Sources */,
+				93ED2A5026237E4400F30FD6 /* TVCellStage.swift in Sources */,
+				9340A6E02620E1D0007C1AD1 /* VCHome.swift in Sources */,
+				9340A6E52620E1DD007C1AD1 /* TVCCreateProject.swift in Sources */,
+				2BAA4622263EF80E00B96196 /* AFUISupport.swift in Sources */,
+				2B8FD59A263DBDB80012BE64 /* UIView+AFExtentions.swift in Sources */,
+				93ED2A6A2623812400F30FD6 /* Date+AFExtension.swift in Sources */,
+				93526E0F2620CEBC0046647C /* ArtFlow.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93526E162620CEBF0046647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93526E1F2620CEBF0046647C /* ArtFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93526E212620CEBF0046647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93526E2A2620CEBF0046647C /* ArtFlowUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		93526E1C2620CEBF0046647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93526E002620CEBC0046647C /* ArtFlow */;
+			targetProxy = 93526E1B2620CEBF0046647C /* PBXContainerItemProxy */;
+		};
+		93526E272620CEBF0046647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93526E002620CEBC0046647C /* ArtFlow */;
+			targetProxy = 93526E262620CEBF0046647C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		E4557D5D25ED97EB00D5B281 /* LaunchScreen.storyboard */ = {
+		93526E0A2620CEBC0046647C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E4557D5E25ED97EB00D5B281 /* Base */,
+				93526E0B2620CEBC0046647C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93526E122620CEBF0046647C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93526E132620CEBF0046647C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -153,7 +519,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E4557D6125ED97EB00D5B281 /* Debug */ = {
+		93526E2C2620CEBF0046647C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,7 +570,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -214,7 +580,7 @@
 			};
 			name = Debug;
 		};
-		E4557D6225ED97EB00D5B281 /* Release */ = {
+		93526E2D2620CEBF0046647C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -269,8 +635,9 @@
 			};
 			name = Release;
 		};
-		E4557D6425ED97EB00D5B281 /* Debug */ = {
+		93526E2F2620CEBF0046647C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D5548DFFCE9A1253FBA8BA /* Pods-ArtFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -281,15 +648,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.ArtFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.artflow.ArtFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E4557D6525ED97EB00D5B281 /* Release */ = {
+		93526E302620CEBF0046647C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461349C3FC959A0E65C506F9 /* Pods-ArtFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,35 +668,150 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.ArtFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.artflow.ArtFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93526E322620CEBF0046647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641B04D0D12A196CB0D7B34E /* Pods-ArtFlowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtFlowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.artflow.ArtFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtFlow.app/ArtFlow";
+			};
+			name = Debug;
+		};
+		93526E332620CEBF0046647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125881C5267712269E631E3D /* Pods-ArtFlowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtFlowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.artflow.ArtFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtFlow.app/ArtFlow";
+			};
+			name = Release;
+		};
+		93526E352620CEBF0046647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA388CB01DE1EE082E9F587E /* Pods-ArtFlow-ArtFlowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.artflow.ArtFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtFlow;
+			};
+			name = Debug;
+		};
+		93526E362620CEBF0046647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117EBB6F792E15DA0B12344C /* Pods-ArtFlow-ArtFlowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinntrang.artflow.ArtFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtFlow;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4557D4A25ED97EA00D5B281 /* Build configuration list for PBXProject "ArtFlow" */ = {
+		93526DFC2620CEBC0046647C /* Build configuration list for PBXProject "ArtFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4557D6125ED97EB00D5B281 /* Debug */,
-				E4557D6225ED97EB00D5B281 /* Release */,
+				93526E2C2620CEBF0046647C /* Debug */,
+				93526E2D2620CEBF0046647C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4557D6325ED97EB00D5B281 /* Build configuration list for PBXNativeTarget "ArtFlow" */ = {
+		93526E2E2620CEBF0046647C /* Build configuration list for PBXNativeTarget "ArtFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4557D6425ED97EB00D5B281 /* Debug */,
-				E4557D6525ED97EB00D5B281 /* Release */,
+				93526E2F2620CEBF0046647C /* Debug */,
+				93526E302620CEBF0046647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93526E312620CEBF0046647C /* Build configuration list for PBXNativeTarget "ArtFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93526E322620CEBF0046647C /* Debug */,
+				93526E332620CEBF0046647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93526E342620CEBF0046647C /* Build configuration list for PBXNativeTarget "ArtFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93526E352620CEBF0046647C /* Debug */,
+				93526E362620CEBF0046647C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93526E0D2620CEBC0046647C /* ArtFlow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93526E0E2620CEBC0046647C /* ArtFlow.xcdatamodel */,
+			);
+			currentVersion = 93526E0E2620CEBC0046647C /* ArtFlow.xcdatamodel */;
+			path = ArtFlow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = E4557D4725ED97EA00D5B281 /* Project object */;
+	rootObject = 93526DF92620CEBC0046647C /* Project object */;
 }

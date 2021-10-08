@@ -8,7 +8,7 @@ ArtFlow serves as a platform for visual artists to record the progress of their 
 
 ## Project Poster
 
-![ArtFlow Poster](https://drive.google.com/file/d/1p92xJH_lBSMZbFBiRXYbm1kK5zgyYbDf/view?usp=sharing)
+![ArtFlow Poster](/Media/Poster.png)
 
 ## Demo 
 

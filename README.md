@@ -8,7 +8,7 @@ ArtFlow serves as a platform for visual artists to record the progress of their 
 
 ## Project Poster
 
-https://www.trincoll.edu/cs/wp-content/uploads/sites/36/2021/06/2021-Luong-Senior-Project-Poster.pdf
+* ![ArtFlow Poster](https://drive.google.com/file/d/1p92xJH_lBSMZbFBiRXYbm1kK5zgyYbDf/view?usp=sharing)
 
 ## Demo 
 

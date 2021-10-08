@@ -12,7 +12,7 @@ ArtFlow serves as a platform for visual artists to record the progress of their 
 
 ## Demo 
 
-* [Link to watch demo!](https://www.youtube.com/watch?v=K-kqo6bo850) (this is part of a live demo)
+* [Link](https://www.youtube.com/watch?v=K-kqo6bo850) (This is part of a live demo)
 
 ## How to run
 

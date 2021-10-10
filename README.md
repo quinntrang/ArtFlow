@@ -17,8 +17,8 @@ ArtFlow serves as a platform for visual artists to record the progress of their 
 ## How to run
 
 * Clone repo
-* pod init
-* pod install
+* ```pod init```
+* ```pod install```
 * Run ArtFlow on XCode
 
 ## Code standards

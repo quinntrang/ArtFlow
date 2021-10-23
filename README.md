@@ -23,6 +23,9 @@ ArtFlow serves as a platform for visual artists to record the progress of their 
 * Open XCode
 * Run the application using XCode's iPhone simulator
 
+## TestFlight
+* [Contact me](mailto:quinn.t.luong@gmail.com?subject=[GitHub]%20ArtFlow%20Beta%20Testing) to test ArtFlow on your device! 
+
 ## Code Standards
 
 SwiftLint is used throughout this project to ensure code standards. The codebase adheres to the official [Swift Style Guide](https://google.github.io/swift/). 

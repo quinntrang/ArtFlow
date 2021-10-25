@@ -28,4 +28,4 @@ ArtFlow serves as a platform for visual artists to record the progress of their 
 
 ## Code Standards
 
-SwiftLint is used throughout this project to ensure code standards. The codebase adheres to the official [Swift Style Guide](https://google.github.io/swift/). 
+SwiftLint is used throughout this project to ensure code standards. The codebase adheres to the [Google Swift Style Guide](https://google.github.io/swift/). 
